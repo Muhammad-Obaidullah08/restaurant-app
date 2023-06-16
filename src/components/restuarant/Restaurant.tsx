@@ -18,12 +18,12 @@ const Restaurant = () => {
         <>
             <nav className='w-full bg-orange-50 pt-10'>
                 <ul className='flex flex-wrap w-2/3 bg-white justify-around items-center rounded-full mx-auto py-3'>
-                    <li className='px-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => setMenuData(Menu)}>All</li>
-                    <li className='px-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Breakfast")}>Breakfast</li>
-                    <li className='px-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Lunch")}>Lunch</li>
-                    <li className='px-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Brunch")}>Brunch</li>
-                    <li className='px-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Dinner")}>Dinner</li>
-                    <li className='px-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Refreshment")}>Refreshment</li>
+                    <li className='p-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => setMenuData(Menu)}>All</li>
+                    <li className='p-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Breakfast")}>Breakfast</li>
+                    <li className='p-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Lunch")}>Lunch</li>
+                    <li className='p-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Brunch")}>Brunch</li>
+                    <li className='p-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Dinner")}>Dinner</li>
+                    <li className='p-2 hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Refreshment")}>Refreshment</li>
                 </ul>
             </nav>
 
