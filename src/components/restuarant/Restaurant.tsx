@@ -17,7 +17,7 @@ const Restaurant = () => {
     return (
         <>
             <nav className='w-full bg-orange-50 pt-10'>
-                <ul className='flex w-2/3 bg-white justify-around items-center rounded-full mx-auto py-3'>
+                <ul className='flex flex-wrap w-2/3 bg-white justify-around items-center rounded-full mx-auto py-3'>
                     <li className='hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => setMenuData(Menu)}>All</li>
                     <li className='hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Breakfast")}>Breakfast</li>
                     <li className='hover:underline hover:underline-offset-8 hover:decoration-violet-700 hover:decoration-4 cursor-pointer' onClick={() => filterItem("Lunch")}>Lunch</li>
